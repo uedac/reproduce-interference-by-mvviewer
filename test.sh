@@ -9,7 +9,7 @@ ls /opt/HuarayTech/MVviewer/bin/ -la
 
 sudo chmod -R g-r /opt/HuarayTech/MVviewer/include/*
 whoami
-groups runnner
+groups runner
 
 directory_path_of_this_script=$(dirname $(readlink -f "$0"))
 rm $directory_path_of_this_script/build -rf
