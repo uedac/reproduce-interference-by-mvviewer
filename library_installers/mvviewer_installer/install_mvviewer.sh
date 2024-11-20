@@ -7,6 +7,7 @@ wget -P /tmp https://github.com/sakurai-ryuhei/reproduce-interference-between-li
 chmod +x /tmp/$installer_file_name
 yes yes | sudo /tmp/$installer_file_name --nox11
 
+cut -d: -f1 /etc/passwd
 whoami
 ls /opt/HuarayTech/MVviewer/include/ -la
 ls /opt/HuarayTech/MVviewer/lib/ -la
