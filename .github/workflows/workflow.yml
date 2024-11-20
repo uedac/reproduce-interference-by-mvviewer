@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Install dependencies
         run: |
-          sudo ./library_installers/install_libraries.sh
+          ./library_installers/install_libraries.sh
       - name: Test
         run: |
           ./test.sh
