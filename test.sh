@@ -2,7 +2,8 @@
 
 set -ex
 
-sudo chmod -R -r /opt/HuarayTech/MVviewer/include/*
+sudo chmod -R g-r /opt/HuarayTech/MVviewer/include/*
+whoami
 directory_path_of_this_script=$(dirname $(readlink -f "$0"))
 rm $directory_path_of_this_script/build -rf
 mkdir $directory_path_of_this_script/build
