@@ -11,5 +11,5 @@ rm $directory_path_of_this_script/build -rf
 mkdir $directory_path_of_this_script/build
 cd $directory_path_of_this_script/build
 cmake -DCMAKE_BUILD_TYPE=Debug ..
-groups | make
+groups && make
 $directory_path_of_this_script/build/main
